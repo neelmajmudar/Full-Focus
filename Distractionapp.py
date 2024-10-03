@@ -198,7 +198,6 @@ def update_slider_labels(event=None):
     rblink_threshold_label.config(
         text=f'Right Blink Threshold: {float(rblink_threshold_slider.get()):.2f}')
 
-# Create labels to display threshold values beside the sliders
 left_threshold_label = ttk.Label(
     root, text=f'Left Threshold: {left_threshold:.2f}')
 left_threshold_label.pack()

@@ -24,15 +24,12 @@ Demo video is too big to post here so please take a look at it here: https://img
 
 - **Customizable alerts**  
   Set threshold values, delay times, and alert repetitions to tailor feedback to your preferences.  
-  :contentReference[oaicite:2]{index=2}
 
 - **Focus session metrics**  
   Gain insights such as “Total Time Focused,” “Time Distracted,” and session-level summaries.  
-  :contentReference[oaicite:3]{index=3}
 
 - **Multi-platform support**  
   Available on Windows and macOS (Mac version launched as of 5 months ago).  
-  :contentReference[oaicite:4]{index=4}
 
 - **Gentle audio notifications**  
   Choose or upload alert sounds to bring your attention back without disrupting your flow.
@@ -71,6 +68,4 @@ Lightweight React-based interface to display live metrics and session summaries,
 
 ```bash
 git clone https://github.com/neelmajmudar/FullFocus.git
-cd FullFocus
-npm install
-npm start
+py fullfocus.py
